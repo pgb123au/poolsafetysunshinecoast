@@ -1,0 +1,107 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does a QBCC pool safety certificate last on the Sunshine Coast?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Two years for non-shared pools (a typical Maroochydore or Buderim backyard pool) and one year for shared pools at units, motels and short-stay properties. The certificate is tied to the pool, not the owner, so if the property sells inside that window the buyer inherits the remaining term."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a Form 36 and when do I need one?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A Form 36 is the Notice of No Pool Safety Certificate. The seller lodges it with the QBCC before settlement when no current certificate is in place. It puts the buyer on notice that they have 90 days from settlement to obtain a compliant certificate, and a copy must be given to the buyer and any tenants at the property."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who can issue a QBCC pool safety certificate on the Sunshine Coast?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Only a licensed QBCC Pool Safety Inspector. Our licence number is printed on every Form 23 certificate we issue along with the inspection date, the pool's QBCC pool register ID and the standard the pool was tested against (Pool Safety Standard MP 3.4 / QDC MP 3.4)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the most common reasons a Sunshine Coast pool fails inspection?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Self-closing gate hinges that have lost tension, climbable objects inside the 900mm non-climbable zone (pot plants, BBQs, pool pumps), missing or sun-faded CPR signage, gaps wider than 100mm at the bottom of fence panels, and door alarms that no longer arm on pool-facing windows in older Mooloolaba and Caloundra homes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does a QBCC pool safety inspection cost in Sunshine Coast?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most standalone pools run $375 to $475 for a first inspection and Form 23 certificate. Larger properties with multiple gates, shared pools, or jobs that need a re-inspection inside the 90-day rectification window sit between $475 and $650 depending on travel and complexity."
+      }
+    }
+  ]
+};
+---
+<Layout
+  title="QBCC Pool Safety Certificate Sunshine Coast | Form 23 Inspection"
+  description="Licensed QBCC Pool Safety Inspector on the Sunshine Coast. 8-point inspection, Form 23 certificate, pre-sale Form 36s, fail-to-pass rectification across Maroochydore, Mooloolaba, Buderim and Noosa."
+  canonical="https://poolsafetysunshinecoast.com.au/qbcc-certificate-sunshine-coast/"
+>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+  </Fragment>
+
+  <section class="hero">
+    <div class="container">
+      <h1>QBCC pool safety certificate on the Sunshine Coast &mdash; what we actually inspect</h1>
+      <p class="lede">Every pool in Queensland that holds more than 300mm of water has to meet the Pool Safety Standard (QDC Mandatory Part 3.4) and carry a current Form 23 certificate when the property is sold, leased or short-stay let. We're licensed QBCC Pool Safety Inspectors working the full Sunshine Coast strip &mdash; Caloundra, Kawana Waters, Mooloolaba, Maroochydore, Coolum, Noosa and the Hinterland through Nambour and Buderim &mdash; and this page walks you through exactly what happens at an inspection, what trips up most coastal pools, and how the renewal cycle works.</p>
+      <p><a class="cta" href="tel:+61485939966">Call +61 485 939 966</a> or email <a href="mailto:quotes@poolsafetysunshinecoast.com.au">quotes@poolsafetysunshinecoast.com.au</a> for a same-week booking.</p>
+    </div>
+  </section>
+
+  <section class="content">
+    <div class="container">
+      <h2>The 8-point pool safety inspection, explained</h2>
+      <p>The QBCC inspection is sometimes called an "8-point check", but in practice it's a structured run-through of the Pool Safety Standard MP 3.4 covering barrier construction, gates, the non-climbable zone, doors and windows giving direct access, CPR signage, depth and condition. We arrive with a tape, a force gauge, a probe rod and a clipboard, and the visit normally takes 45 to 75 minutes for a single backyard pool. We walk the full perimeter of the barrier first, then we test the gate(s) from every opening angle, then the non-climbable zones inside and outside the fence, and finally the signage.</p>
+      <p>For barrier construction, every section of fence has to be at least 1200mm high measured from the finished ground level on the pool side. Horizontal members under 1100mm apart create a climbable surface unless they sit on the inside face of vertical members at least 60mm thick. Gaps in the fence must not exceed 100mm, and the gap under the bottom rail to the ground must also be under 100mm &mdash; a common fail point on older Mooloolaba and Buderim properties where lawn has settled.</p>
+      <p>The non-climbable zone (NCZ) is the part most owners don't realise applies to <em>their</em> stuff, not just the fence. We measure a 900mm arc from the inside top of the barrier going down and inward, and a 300mm arc from the outside top going down and outward. Anything inside that arc that a 2-year-old could use as a step &mdash; a pool pump housing, a planter, the edge of a BBQ trolley, a child's chair left near the fence &mdash; will fail the pool. We will note it on the Form 26 (Notice of Fail) with a photo and a precise measurement so you know exactly what to move.</p>
+
+      <h2>Gates: where most Sunshine Coast pools fail</h2>
+      <p>Roughly six in ten of the pools we inspect for the first time fail on the gate. The gate has to self-close from any position &mdash; not just a hard push, but a release from 5 degrees, from 45 degrees, and from fully open. It has to self-latch on the first attempt every time. The latch release has to sit a minimum of 1500mm above ground level on the pool side, or be shielded and positioned so a small child cannot reach through and disengage it.</p>
+      <p>The salt air on the Sunshine Coast is the silent killer of gate hinges. Spring-loaded hinges that were perfect at the last inspection two years ago routinely fail by year three because the spring tension drops and the pivot pins corrode. We carry adjustment tools so where a hinge is repairable on the spot we can usually bring it back into compliance during the same visit. If it needs replacement, we issue the Form 26 with a recommended hinge model and the owner has 90 days to rectify.</p>
+
+      <h2>Sun, salt and CPR signage</h2>
+      <p>The CPR sign requirement under AS 1926.1 is straightforward on paper &mdash; it has to be permanently displayed in the immediate vicinity of the pool, legible from 3 metres, and show the current Australia and New Zealand Committee on Resuscitation (ANZCOR) version. In practice, the Sunshine Coast UV exposure fades these signs faster than anywhere else in south-east Queensland. We see signs go from compliant to illegible inside five years on west-facing fences in Coolum and Sunrise Beach. A faded sign is a fail. The ANZCOR was updated in 2021, so any sign printed before that date is now non-compliant on content even if it's still legible.</p>
+
+      <h2>Renewal cycle, Form 36s and selling a property</h2>
+      <p>Certificates last two years for standalone pools and one year for shared pools. If you're selling and there's no current certificate, the seller has two options: either get a current Form 23 issued before settlement, or lodge a Form 36 (Notice of No Pool Safety Certificate) with the QBCC. The Form 36 transfers the obligation to the buyer with a 90-day rectification window from settlement. Form 36s are common on deceased estates, mortgagee sales and properties where the pool fence is mid-rebuild, but the seller still has to physically lodge the form and provide a copy to the buyer. Failure to disclose attracts a maximum fine of more than 165 penalty units.</p>
+      <p>If you're a Sunshine Coast landlord, every new tenancy agreement triggers the certificate requirement &mdash; you cannot let a property with a pool to a new tenant without a current Form 23 in place at the time the lease is signed. Short-stay operators (Airbnb, Stayz, holiday let agencies through Mooloolaba and Noosa) fall under the shared-pool one-year cycle.</p>
+
+      <h3>How to book an inspection</h3>
+      <p>We work Monday to Saturday across the Sunshine Coast LGA and the Noosa Shire. Most jobs are booked inside the same week, and pre-sale inspections can usually be turned around in 48 hours when settlement dates are pressing. Phone <a href="tel:+61485939966">+61 485 939 966</a> or email <a href="mailto:quotes@poolsafetysunshinecoast.com.au">quotes@poolsafetysunshinecoast.com.au</a> with the property address and your QBCC pool register ID if you have it &mdash; you can look it up free at qbcc.qld.gov.au.</p>
+
+      <h2>Frequently asked questions</h2>
+
+      <h3>How long does a QBCC pool safety certificate last on the Sunshine Coast?</h3>
+      <p>Two years for non-shared pools (a typical Maroochydore or Buderim backyard pool) and one year for shared pools at units, motels and short-stay properties. The certificate is tied to the pool, not the owner, so if the property sells inside that window the buyer inherits the remaining term.</p>
+
+      <h3>What is a Form 36 and when do I need one?</h3>
+      <p>A Form 36 is the Notice of No Pool Safety Certificate. The seller lodges it with the QBCC before settlement when no current certificate is in place. It puts the buyer on notice that they have 90 days from settlement to obtain a compliant certificate, and a copy must be given to the buyer and any tenants at the property.</p>
+
+      <h3>Who can issue a QBCC pool safety certificate on the Sunshine Coast?</h3>
+      <p>Only a licensed QBCC Pool Safety Inspector. Our licence number is printed on every Form 23 certificate we issue along with the inspection date, the pool's QBCC pool register ID and the standard the pool was tested against (Pool Safety Standard MP 3.4 / QDC MP 3.4).</p>
+
+      <h3>How much does a QBCC pool safety inspection cost in Sunshine Coast?</h3>
+      <p>Most standalone pools run $375 to $475 for a first inspection and Form 23 certificate. Larger properties with multiple gates, shared pools, or jobs that need a re-inspection inside the 90-day rectification window sit between $475 and $650 depending on travel and complexity.</p>
+
+      <h2>Book your QBCC inspection</h2>
+      <p>If you're selling, leasing, switching to short-stay, or your last certificate has just lapsed, a licensed inspector can usually give you certainty inside one hour on site. Phone <a href="tel:+61485939966">+61 485 939 966</a> or email <a href="mailto:quotes@poolsafetysunshinecoast.com.au">quotes@poolsafetysunshinecoast.com.au</a> to lock in a visit anywhere from Caloundra to Noosa.</p>
+    </div>
+  </section>
+</Layout>

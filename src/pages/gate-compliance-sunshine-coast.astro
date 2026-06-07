@@ -1,0 +1,114 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I test my pool gate self-closes properly?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Open the gate to roughly 150mm (just enough to walk a small child through), let go, and watch it close and latch on the first attempt without help. Repeat from 45 degrees, then from fully open. If it stalls, bounces back or fails to latch on any of those three releases, it doesn't meet AS 1926.1 and will fail a QBCC inspection."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the legal height of the pool gate latch in Queensland?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The release mechanism on the latch has to sit at least 1500mm above ground level on the pool side of the gate. Where the latch is mounted lower, it has to be shielded so the opening to release it sits inside a 150mm radius from the latch arm, preventing a small hand reaching through to disengage it."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How often should I test my pool gate?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Every six months, and after any storm or work near the gate. Sunshine Coast salt air pulls tension out of spring hinges much faster than inland Queensland. We recommend a March and September check, plus a quick test after any cyclonic event that may have flexed the posts. A 30-second drop-test will tell you if the hinges are still in tolerance."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I adjust a Magna-Latch myself or do I need an inspector?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Owners can re-tension a D&D Magna-Latch with the supplied allen key &mdash; the procedure is in the manual and takes about two minutes. What an owner cannot do is sign off the gate as compliant. The QBCC inspector still needs to verify the latch height, the self-close from three angles, and the hinge tension under load before a Form 23 can be issued."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "My gate latches sometimes but not always &mdash; is that a fail?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. The standard requires reliable self-latching every single time, from any open position. Intermittent latching is one of the most common reasons we issue a Form 26 on the Sunshine Coast. It usually traces back to hinge spring fatigue, a misaligned strike plate, or sand and grit lodged in the latch mechanism &mdash; all fixable inside an hour."
+      }
+    }
+  ]
+};
+---
+<Layout
+  title="Pool Gate Self-Close & Self-Latch Testing Sunshine Coast | AS 1926.1"
+  description="Why the gate is the #1 fail-point on Sunshine Coast pool fences. AS 1926.1 self-close-from-any-position test, 1500mm latch-height rule, 6-monthly owner test routine, hinge adjustment service."
+  canonical="https://poolsafetysunshinecoast.com.au/gate-compliance-sunshine-coast/"
+>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+  </Fragment>
+
+  <section class="hero">
+    <div class="container">
+      <h1>Pool gate self-close and self-latch testing on the Sunshine Coast</h1>
+      <p class="lede">If your pool is going to fail a QBCC inspection, the gate is where it's going to happen. We track every Form 26 (Notice of Fail) we issue across Maroochydore, Mooloolaba, Caloundra, Buderim and Noosa, and the gate accounts for more failures than every other fence element combined. This page walks you through how the AS 1926.1 self-close test actually works, why Sunshine Coast salt air is uniquely brutal on spring hinges, and the simple 6-monthly routine that will stop you getting caught out at pre-sale.</p>
+      <p>Need a gate looked at today? <a class="cta" href="tel:+61485939966">Call +61 485 939 966</a> or email <a href="mailto:quotes@poolsafetysunshinecoast.com.au">quotes@poolsafetysunshinecoast.com.au</a>.</p>
+    </div>
+  </section>
+
+  <section class="content">
+    <div class="container">
+      <h2>The AS 1926.1 self-close test &mdash; three positions, every time</h2>
+      <p>The Pool Safety Standard MP 3.4 references AS 1926.1 for barriers, and the gate clause is unambiguous: the gate must close and latch from any position without external force. In practice we test from three positions during an inspection. First, we open the gate roughly 150mm &mdash; that's the gap a small toddler can squeeze through &mdash; and release. The gate has to swing closed under its own spring tension and latch on the first attempt. Second, we open it to 45 degrees and release. Third, we open it fully (usually 90 degrees against the stop) and release. If the gate stalls, fails to latch, bounces off the strike, or needs a nudge at any of those three positions, the pool fails.</p>
+      <p>Owners often assume a gate that latches when slammed shut is compliant. It isn't. The test is specifically designed to mimic a child pushing the gate open, walking through, and the gate having to do its safety job without anyone helping it. A gate that needs gravity assist (sitting on a slope helping it close) is fine; a gate that needs <em>anything</em> beyond its own springs and hinges is not.</p>
+
+      <h2>Latch height: the 1500mm rule and the shielded-release exception</h2>
+      <p>The release mechanism on the gate latch &mdash; the bit a person has to push, twist or pull to open the gate &mdash; has to sit at least 1500mm above the finished ground level on the pool side. That's measured from the ground directly under the latch, not from the lowest point in the yard or some averaged surface. Where the latch sits lower, it has to be shielded so the release sits inside a 150mm shielding radius, meaning a child can't get a hand through to actuate it.</p>
+      <p>The most popular compliant latch on the Sunshine Coast is the D&amp;D Magna-Latch series 3. It's a magnetic latch with a top-mount release at the required height, and it's adjustable for catch and tension. The Magna-Latch Top Pull is the gold standard for new installs. Older properties around Sippy Downs and Nambour sometimes still have side-pull latches at lower heights &mdash; these are fine if the shielded-release geometry checks out, but they need to be measured during every inspection.</p>
+
+      <h2>Why Sunshine Coast salt air destroys gate hinges faster than anywhere else</h2>
+      <p>The further east you go on the Sunshine Coast, the harder the maritime climate is on hardware. Coolum, Sunshine Beach, Marcoola and Mooloolaba properties within a kilometre of the surf see hinge degradation roughly twice as fast as Hinterland properties in Maleny or Mapleton. The spring inside a self-closing hinge loses tension as the steel pits with corrosion, the pivot pin seizes, and the geometry of the swing changes slightly. A gate that snaps shut perfectly the day a new hinge goes in can drift to a slow, hesitant close inside 18 months.</p>
+      <p>Stainless 316 spring hinges (D&amp;D TruClose Heavy Duty or Polaris) are the only hardware we recommend on coastal jobs. They cost a little more than the 304 variants, but the lifespan difference in salt air is significant &mdash; we routinely see 304 hinges fail their first re-inspection two years in, while 316 units pass three and even four cycles. If your gate uses anything other than stainless on a property within a couple of kilometres of the beach, expect to be replacing hinges roughly every certificate cycle.</p>
+
+      <h2>The 30-second owner test you should do every six months</h2>
+      <p>You don't need a force gauge or a tape measure to spot a failing gate. Once every six months &mdash; we suggest the first of March and the first of September, easy dates to remember &mdash; do this:</p>
+      <ol>
+        <li>Walk the gate open about 150mm, release, watch and listen for the latch to click. If it doesn't, stop and book a service.</li>
+        <li>Open it to halfway, release, same check.</li>
+        <li>Open it fully against the stop, release. The gate should swing back smoothly without a dead spot.</li>
+        <li>Push gently on the closed gate from the outside as if a child were leaning on it. The latch should hold solidly.</li>
+        <li>Look at the hinges. If you can see orange dust under the spring barrel, or the gate sags when fully open, the hinges are on borrowed time.</li>
+      </ol>
+      <p>That 30 seconds, twice a year, is the difference between a quiet maintenance call and a panicked Friday-afternoon scramble before a Monday settlement.</p>
+
+      <h2>What we do on a gate service call</h2>
+      <p>If you book a gate-specific visit (rather than a full inspection), we'll arrive with replacement hinges, latches and shielding kits in the van and most gates can be returned to full AS 1926.1 compliance in under an hour. We re-tension where the hinge is still serviceable, replace with stainless 316 where it isn't, re-align strike plates, and re-measure latch heights. If you've had a Form 26 issued elsewhere and you're inside the 90-day rectification window, we can re-inspect and issue the Form 23 the same day in most cases.</p>
+
+      <h2>Frequently asked questions</h2>
+
+      <h3>How do I test my pool gate self-closes properly?</h3>
+      <p>Open the gate to roughly 150mm (just enough to walk a small child through), let go, and watch it close and latch on the first attempt without help. Repeat from 45 degrees, then from fully open. If it stalls, bounces back or fails to latch on any of those three releases, it doesn't meet AS 1926.1 and will fail a QBCC inspection.</p>
+
+      <h3>What is the legal height of the pool gate latch in Queensland?</h3>
+      <p>The release mechanism on the latch has to sit at least 1500mm above ground level on the pool side of the gate. Where the latch is mounted lower, it has to be shielded so the opening to release it sits inside a 150mm radius from the latch arm, preventing a small hand reaching through to disengage it.</p>
+
+      <h3>How often should I test my pool gate?</h3>
+      <p>Every six months, and after any storm or work near the gate. Sunshine Coast salt air pulls tension out of spring hinges much faster than inland Queensland. We recommend a March and September check, plus a quick test after any cyclonic event that may have flexed the posts. A 30-second drop-test will tell you if the hinges are still in tolerance.</p>
+
+      <h3>Can I adjust a Magna-Latch myself or do I need an inspector?</h3>
+      <p>Owners can re-tension a D&amp;D Magna-Latch with the supplied allen key &mdash; the procedure is in the manual and takes about two minutes. What an owner cannot do is sign off the gate as compliant. The QBCC inspector still needs to verify the latch height, the self-close from three angles, and the hinge tension under load before a Form 23 can be issued.</p>
+
+      <h2>Book a gate inspection or service</h2>
+      <p>Whether you've already failed an inspection and need a re-test inside the 90-day rectification window, or you just want a precautionary check before listing the property, we can usually fit a Sunshine Coast gate service in within 72 hours. Phone <a href="tel:+61485939966">+61 485 939 966</a> or email <a href="mailto:quotes@poolsafetysunshinecoast.com.au">quotes@poolsafetysunshinecoast.com.au</a> &mdash; the inspection fee is $375 to $475 for a single gate, $475 to $650 for multi-gate or shared-pool jobs.</p>
+    </div>
+  </section>
+</Layout>

@@ -1,0 +1,111 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the QBCC pool register and is my Sunshine Coast pool on it?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The QBCC maintains a state-wide pool register at qbcc.qld.gov.au listing every regulated pool in Queensland. You can search by address for free. If a pool isn't on the register, it has to be entered before a property can be sold &mdash; that's the seller's responsibility under the Building Act 1975 (Qld), and a Form 17 has to be lodged within 7 days of an inspection."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who is legally responsible for the pool register entry at sale time?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The seller. The Building Act 1975 (Qld) places the obligation on the property owner at the time of sale to either provide a current Form 23 pool safety certificate to the buyer before settlement, or lodge a Form 36 Notice of No Pool Safety Certificate with the QBCC and give a copy to the buyer. Failure to do either is an offence carrying a maximum of more than 165 penalty units."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long is a pool safety certificate valid for conveyancing in Sunshine Coast?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A Form 23 issued for a non-shared (private) pool is valid for two years from the date of inspection. As long as the certificate is current on the day of settlement, the sale proceeds normally and the buyer inherits the remaining term. If it lapses between contract signing and settlement, you'll need a fresh inspection or a Form 36."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if a Sunshine Coast property is sold without disclosing the pool?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The seller commits an offence under the Building Act 1975 (Qld) and can be fined more than 165 penalty units (over $25,000 at current penalty unit values). The buyer also has the right to recover the cost of bringing the pool into compliance from the seller, and conveyancers will normally insist on register evidence before allowing settlement to proceed."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I get a Form 23 inspection booked before my Sunshine Coast property goes on the market?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, and we strongly recommend it. A pre-listing inspection costs $375 to $475 and gives you a 2-year certificate that travels with the property through the campaign. If any fail items come back on the Form 26, you have time to rectify before buyers are walking through &mdash; far cheaper and less stressful than scrambling between contract and settlement."
+      }
+    }
+  ]
+};
+---
+<Layout
+  title="Pool Register & Conveyancing Compliance Sunshine Coast | QBCC"
+  description="QBCC pool register entry, Form 23 transfer at conveyancing, seller obligations and Form 36 process for Sunshine Coast property sales. Pre-listing inspections from $375."
+  canonical="https://poolsafetysunshinecoast.com.au/pool-register-sunshine-coast/"
+>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+  </Fragment>
+
+  <section class="hero">
+    <div class="container">
+      <h1>Pool register entry and transfer at conveyancing on the Sunshine Coast</h1>
+      <p class="lede">Selling a property on the Sunshine Coast with a pool? The Building Act 1975 (Qld) is unambiguous about who is responsible for what, and the consequences for getting it wrong reach into five-figure penalty territory. This page walks you through the QBCC pool register, the seller's exact obligations at conveyancing, how the Form 23 certificate moves with the property, and what to do if you discover the pool isn't on the register at all &mdash; common with older Caloundra, Nambour and Buderim properties bought before the 2010 statewide regulations.</p>
+      <p>Pre-listing or pre-settlement inspection? <a class="cta" href="tel:+61485939966">Call +61 485 939 966</a> or email <a href="mailto:quotes@poolsafetysunshinecoast.com.au">quotes@poolsafetysunshinecoast.com.au</a>.</p>
+    </div>
+  </section>
+
+  <section class="content">
+    <div class="container">
+      <h2>The QBCC pool register &mdash; what it is and how to check yours</h2>
+      <p>The Queensland Building and Construction Commission maintains a free public register of every regulated pool in the state. You can search it at qbcc.qld.gov.au by entering the property address &mdash; no login, no fee. The register holds the pool's QBCC ID, the last inspection date, who the licensed Pool Safety Inspector was, the certificate status and the next expiry. For a Sunshine Coast buyer doing pre-contract due diligence, it's the first thing the conveyancer will look at.</p>
+      <p>Pools added to a property after 1 December 2010 should already be on the register because the building approval process flagged them. Pools built before that date had a window to be retrospectively added, and many were &mdash; but not all. We routinely run into older spa-pools, plunge pools and converted lap pools on Hinterland properties around Maleny, Eumundi and Yandina that were never formally registered. The first step in any pre-sale process is searching the register; the second step, if the pool isn't there, is a licensed inspector lodging a Form 17 to add it.</p>
+
+      <h2>The seller's obligations under the Building Act 1975 (Qld)</h2>
+      <p>Section 246ATG and the surrounding provisions of the Building Act spell out exactly what a seller of a Queensland property containing a regulated pool has to do. There are only two compliant pathways:</p>
+      <ol>
+        <li><strong>Provide a current Form 23 Pool Safety Certificate</strong> to the buyer before settlement. The certificate must be current on the day of settlement &mdash; not on the day the contract was signed.</li>
+        <li><strong>Lodge a Form 36 Notice of No Pool Safety Certificate</strong> with the QBCC, give a copy to the buyer before settlement, and let the buyer know they have 90 days from settlement to obtain a current certificate themselves.</li>
+      </ol>
+      <p>That's it. There is no third option. "I forgot" and "the agent said it'd be fine" and "we'll sort it out after settlement without a Form 36" are all offences. The maximum penalty is significant &mdash; more than 165 penalty units, which translates to over $25,000 at current Queensland penalty unit values &mdash; and the buyer has a separate civil right to recover the rectification cost from the seller.</p>
+
+      <h2>How the Form 23 travels with the property</h2>
+      <p>The Form 23 certificate is attached to the pool, not the owner. So if you obtain a certificate in January and sell the property in March, the buyer inherits the remaining 21 months or so of validity. They don't need a fresh inspection just because the title has changed hands. That's a strong argument for getting a pre-listing inspection done &mdash; the certificate becomes an asset on the contract that buyers can verify on the QBCC register, and there's no last-minute settlement risk.</p>
+      <p>Conveyancers across the Sunshine Coast &mdash; the firms working out of Maroochydore, Caloundra and Noosa &mdash; will normally request a copy of the Form 23 as part of the standard pre-settlement checklist. If you give it to them up front along with the QBCC register search, the pool aspect of the conveyance is finished before it even starts.</p>
+
+      <h2>What goes wrong &mdash; and how to fix it before it costs you</h2>
+      <p>The most common mess we see is a contract signed in good faith with no thought given to the pool, then a frantic phone call the week before settlement when the conveyancer flags the missing certificate. At that point the seller has roughly five working days to either get a Form 23 issued (which means inspection, any failed-item rectification, and re-inspection) or lodge a Form 36. We can usually accelerate the inspection to inside 48 hours on a Sunshine Coast job, but if the gate fails or a CPR sign needs replacing, you're then waiting on a tradesman, parts arriving, and a re-inspection &mdash; easily a week.</p>
+      <p>The cheaper, calmer play is to book the inspection the same day the property goes onto the agent's listing platform. Inspection fee is $375 to $475. If everything passes, you have a 2-year certificate that survives the entire campaign. If a Form 26 (fail notice) is issued, you have weeks rather than days to do the rectification, the 90-day re-inspection window of the same fee still applies, and the certificate is in place well before settlement.</p>
+
+      <h3>Pools that aren't on the register at all</h3>
+      <p>If your property comes back with no entry on the QBCC search, don't panic &mdash; this is common on older inland Sunshine Coast properties. The licensed Pool Safety Inspector lodges a Form 17 within 7 days of the inspection, the QBCC adds the pool to the register, and the Form 23 issues normally. Add a few extra days for processing and you're fine.</p>
+
+      <h2>Frequently asked questions</h2>
+
+      <h3>What is the QBCC pool register and is my Sunshine Coast pool on it?</h3>
+      <p>The QBCC maintains a state-wide pool register at qbcc.qld.gov.au listing every regulated pool in Queensland. You can search by address for free. If a pool isn't on the register, it has to be entered before a property can be sold &mdash; that's the seller's responsibility under the Building Act 1975 (Qld), and a Form 17 has to be lodged within 7 days of an inspection.</p>
+
+      <h3>Who is legally responsible for the pool register entry at sale time?</h3>
+      <p>The seller. The Building Act 1975 (Qld) places the obligation on the property owner at the time of sale to either provide a current Form 23 pool safety certificate to the buyer before settlement, or lodge a Form 36 Notice of No Pool Safety Certificate with the QBCC and give a copy to the buyer. Failure to do either is an offence carrying a maximum of more than 165 penalty units.</p>
+
+      <h3>How long is a pool safety certificate valid for conveyancing in Sunshine Coast?</h3>
+      <p>A Form 23 issued for a non-shared (private) pool is valid for two years from the date of inspection. As long as the certificate is current on the day of settlement, the sale proceeds normally and the buyer inherits the remaining term. If it lapses between contract signing and settlement, you'll need a fresh inspection or a Form 36.</p>
+
+      <h3>What happens if a Sunshine Coast property is sold without disclosing the pool?</h3>
+      <p>The seller commits an offence under the Building Act 1975 (Qld) and can be fined more than 165 penalty units (over $25,000 at current penalty unit values). The buyer also has the right to recover the cost of bringing the pool into compliance from the seller, and conveyancers will normally insist on register evidence before allowing settlement to proceed.</p>
+
+      <h2>Book your pre-sale inspection now</h2>
+      <p>The cheapest, easiest moment to deal with the pool side of a conveyance is the day you decide to sell &mdash; not the week before settlement. Phone <a href="tel:+61485939966">+61 485 939 966</a> or email <a href="mailto:quotes@poolsafetysunshinecoast.com.au">quotes@poolsafetysunshinecoast.com.au</a> to lock in a Sunshine Coast inspection from $375.</p>
+    </div>
+  </section>
+</Layout>
